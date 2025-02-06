@@ -1,5 +1,6 @@
 // import { Link } from "react-router-dom";
 import { Link, animateScroll as scroll } from 'react-scroll';
+import hello from "../assets/icons8-hello-100.png"
 
 const Navbar = () => {
     return (
@@ -18,7 +19,7 @@ const Navbar = () => {
                             <li><a>Download</a></li>
                         </ul>
                     </div>
-                    <a className="btn btn-ghost text-xl">daisyUI</a>
+                    <img className='h-16' src={hello} alt="" />
                 </div>
                 <div className="navbar-center hidden lg:flex">
 
