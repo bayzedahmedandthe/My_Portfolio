@@ -1,6 +1,7 @@
 import AboutMe from "../Components/AboutMe";
 import Banner from "../Components/Banner";
 import Navbar from "../Components/Navbar";
+import Projects from "../Components/Projects";
 import Skills from "../Components/Skills";
 
 const HomePage = () => {
@@ -14,6 +15,7 @@ const HomePage = () => {
             </div>
             <AboutMe></AboutMe>
             <Skills></Skills>
+            <Projects></Projects>
         </div>
     );
 };

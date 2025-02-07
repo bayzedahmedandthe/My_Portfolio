@@ -5,7 +5,7 @@ import hello from "../assets/icons8-hello-100.png"
 const Navbar = () => {
     return (
         <div>
-            <div className="navbar text backdrop-blur-3xl fixed text-[#ff9033] z-20">
+            <div className="navbar text backdrop-blur-3xl fixed text-white z-20">
                 <div className="navbar-start">
                     <div className="dropdown">
                         <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
