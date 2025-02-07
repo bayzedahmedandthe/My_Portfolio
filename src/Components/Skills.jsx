@@ -7,12 +7,13 @@ import nextjs_logo from "../assets/download-removebg-preview (2).png"
 import nodejs_logo from "../assets/download-removebg-preview (3).png"
 import mongo_logo from "../assets/mongo.png"
 import ex_logo from "../assets/download.png"
+import tailwind_logo from "../assets/download-removebg-preview.png"
 import Marquee from "react-fast-marquee"
 
 
 const Skills = () => {
     return (
-        <div id="skills" className="max-w-[70%] mx-auto my-12">
+        <div id="skills" className="max-w-[83%] mx-auto my-12">
             <h2 className=" text-center md:text-3xl text-xl font-semibold pt-8 pb-4 text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to bg-orange-700">Skills</h2>
             <h4 className="md:text-xl text-lg font-semibold py-4">Frontend skills</h4>
             <Marquee pauseOnHover direction="right">
@@ -27,6 +28,12 @@ const Skills = () => {
                         <div className="backdrop-blur-lg ">
                             <img className="h-16 w-16 mt-4 flex mx-auto" src={css_logo} alt="" />
                             <h5 className="md:text-xl text-lg font-semibold py-2 text-center">CSS</h5>
+                        </div>
+                    </div>
+                    <div className=" bg-gradient-to-r from-purple-600 to-100% my-16  shadow-purple-500/95 shadow-lg  w-[120px] transition-transform duration-400 transform hover:scale-110 peer">
+                        <div className="backdrop-blur-lg ">
+                            <img className="h-16 w-16 mt-4 flex mx-auto" src={tailwind_logo} alt="" />
+                            <h5 className="md:text-xl text-lg font-semibold py-2 text-center">Tailwind</h5>
                         </div>
                     </div>
                     <div className="bg-gradient-to-r from-purple-600 to-teal-600 my-16  shadow-teal-500/95 shadow-lg w-[120px] transition-transform duration-400 transform hover:scale-110 peer">

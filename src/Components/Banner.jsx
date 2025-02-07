@@ -19,16 +19,16 @@ const Banner = () => {
                         <button className='flex items-center gap-1 bg-gradient-to-l px-2 py-1 from-purple-700 to-orange-700 rounded-sm text-lg'>Download Resume <img className='h-6 w-6' src={resume_logo} alt="" /></button>
                     </div>
                     <div className="flex items-center justify-center gap-4 mt-12">
-                        <Link>
+                        <Link to="https://www.facebook.com/afifahomed.akib/">
                             <img className="md:h-10 md:w-10 h-6 w-6 rounded-full" src={fb_logo} alt="" />
                         </Link>
-                        <Link>
+                        <Link to="https://github.com/bayzedahmedandthe">
                             <img className="md:h-10 md:w-10 h-6 w-6 rounded-full" src={github_logo} alt="" />
                         </Link>
-                        <Link>
+                        <Link to="https://wa.link/ckvcjd">
                             <img className="md:h-10 md:w-10 h-6 w-6" src={whatsapp_logo} alt="" />
                         </Link>
-                        <Link>
+                        <Link to="https://www.linkedin.com/in/bayzed-ahmed-69914a34b/">
                             <img className="md:h-10 md:w-10 h-6 w-6 rounded-full" src={linkedin_logo} alt="" />
                         </Link>
 

@@ -1,5 +1,6 @@
-// import { Link } from "react-router-dom";
-import { Link, animateScroll as scroll } from 'react-scroll';
+
+// import {  animateScroll as scroll } from 'react-scroll';
+import { Link } from "react-router-dom";
 import hello from "../assets/icons8-hello-100.png"
 import resume_logo from "../assets/icons8-download-64.png"
 
@@ -27,8 +28,10 @@ const Navbar = () => {
                 </div>
                 <div className="navbar-end hidden lg:flex">
                     <ul className="flex items-center gap-4 text-lg">
-                        <Link to="aboutMe" smooth={true} duration={500}><li className='cursor-pointer'>About me</li></Link>
-                        <Link to="skills" smooth={true} duration={500}><li className='cursor-pointer'>Skills</li></Link>
+                        <Link to="/"><li className='cursor-pointer'>Home</li></Link>
+                        <li className='cursor-pointer'><a href="#aboutMe">About me</a></li>
+                        <li className='cursor-pointer'><a href="#skills">Skills</a></li>
+                      <li className='cursor-pointer'><a href="#projects">Projects</a></li>
                         <Link>
                             <button className='flex items-center gap-1 bg-gradient-to-l px-2 py-1 from-purple-700 to-orange-700 rounded-sm'>Resume <img className='h-6 w-6' src={resume_logo} alt="" /></button>
                         </Link>
