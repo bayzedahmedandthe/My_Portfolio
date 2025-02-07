@@ -4,7 +4,7 @@ const AboutMe = () => {
     return (
         <div id="aboutMe" className="max-w-[90%] mx-auto my-12">
 
-            <div className="flex items-center justify-between border-b ">
+            <div className="md:flex md:items-center md:justify-between border-b ">
                 <div className="md:w-[70%]">
                 <h2 className="md:text-3xl text-xl font-semibold pt-8 pb-4 text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to bg-orange-700">About me</h2>
                     <p className="text-white">

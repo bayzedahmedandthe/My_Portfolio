@@ -16,9 +16,13 @@ const Navbar = () => {
                         <ul
                             tabIndex={0}
                             className="menu menu-sm dropdown-content rounded-box z-1 mt-3 w-52 p-2 shadow bg-blue-700">
-                            <li><a>Item 1</a></li>
-                            <li><a>Item 3</a></li>
-                            <li><a>Download</a></li>
+                            <Link to="/"><li className='cursor-pointer'>Home</li></Link>
+                            <li className='cursor-pointer'><a href="#aboutMe">About me</a></li>
+                            <li className='cursor-pointer'><a href="#skills">Skills</a></li>
+                            <li className='cursor-pointer'><a href="#projects">Projects</a></li>
+                            <Link>
+                                <button className='flex items-center gap-1 bg-gradient-to-l px-2 py-1 from-purple-700 to-orange-700 rounded-sm'>Resume <img className='h-6 w-6' src={resume_logo} alt="" /></button>
+                            </Link>
                         </ul>
                     </div>
                     <img className='h-16' src={hello} alt="" />
@@ -31,7 +35,7 @@ const Navbar = () => {
                         <Link to="/"><li className='cursor-pointer'>Home</li></Link>
                         <li className='cursor-pointer'><a href="#aboutMe">About me</a></li>
                         <li className='cursor-pointer'><a href="#skills">Skills</a></li>
-                      <li className='cursor-pointer'><a href="#projects">Projects</a></li>
+                        <li className='cursor-pointer'><a href="#projects">Projects</a></li>
                         <Link>
                             <button className='flex items-center gap-1 bg-gradient-to-l px-2 py-1 from-purple-700 to-orange-700 rounded-sm'>Resume <img className='h-6 w-6' src={resume_logo} alt="" /></button>
                         </Link>
