@@ -1,6 +1,10 @@
 import { Link } from "react-scroll";
 import bayzed from "../assets/Bayzed.png"
 import fb_logo from "../assets/download.jpg"
+import github_logo from "../assets/download (1).png"
+import whatsapp_logo from "../assets/download__1_-removebg-preview.png"
+import linkedin_logo from "../assets/download (2).png"
+import resume_logo from "../assets/icons8-download-64.png"
 const Banner = () => {
     return (
         <div className=" bg-[url('https://i.ibb.co.com/fd8fqj7Q/6434-removebg-preview.png')] bg-cover">
@@ -12,12 +16,22 @@ const Banner = () => {
                     <h3 className="text-lg md:text-2xl font-semibold mt-2 text-white">Frontend developer</h3>
                     <p className="text-white font-medium">I like to create attractive websites</p>
                     <div className="flex justify-end mt-12 ">
-                        <button className="btn border-none text-lg md:font-semibold bg-blue-800 text-white">Download resume</button>
+                        <button className='flex items-center gap-1 bg-gradient-to-l px-2 py-1 from-purple-700 to-orange-700 rounded-sm text-lg'>Download Resume <img className='h-6 w-6' src={resume_logo} alt="" /></button>
                     </div>
-                    <div className="flex items-center justify-center mt-12">
+                    <div className="flex items-center justify-center gap-4 mt-12">
                         <Link>
-                            <img className="md:h-12 md:w-12" src={fb_logo} alt="" />
+                            <img className="md:h-10 md:w-10 h-6 w-6 rounded-full" src={fb_logo} alt="" />
                         </Link>
+                        <Link>
+                            <img className="md:h-10 md:w-10 h-6 w-6 rounded-full" src={github_logo} alt="" />
+                        </Link>
+                        <Link>
+                            <img className="md:h-10 md:w-10 h-6 w-6" src={whatsapp_logo} alt="" />
+                        </Link>
+                        <Link>
+                            <img className="md:h-10 md:w-10 h-6 w-6 rounded-full" src={linkedin_logo} alt="" />
+                        </Link>
+
                     </div>
                 </div>
                 {/* img container */}
