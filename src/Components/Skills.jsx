@@ -57,23 +57,22 @@ const Skills = () => {
                 </div>
             </Marquee>
             <h4 className="md:text-xl text-lg font-semibold md:mt-12 py-4">Backend skills</h4>
-            <div className="md:w-[68%] lg:w-[60%
-            ] mx-auto">
+            <div className="md:w-[68%] lg:w-[58%] mx-auto">
                 <Marquee pauseOnHover>
                     <div className="flex justify-center md:gap-10 gap-2 flex-wrap">
-                        <div className="bg-gradient-to-r from-purple-600 to-blue-600 md:ml-8 lg:ml-4 ml-2  md:my-16  w-[120px] shadow-blue-500/95 shadow-lg  transition-transform duration-400 transform hover:scale-110 peer">
+                        <div className="bg-gradient-to-r from-purple-600 to-blue-600 md:ml-8 lg:ml-4 ml-2  md:my-16 my-4  w-[120px] shadow-blue-500/95 shadow-lg  transition-transform duration-400 transform hover:scale-110 peer">
                             <img className="h-16 w-20 flex mx-auto mt-4" src={nextjs_logo} alt="" />
                             <h5 className="md:text-xl text-lg font-semibold py-2 text-center">Next.js</h5>
                         </div>
-                        <div className="bg-white  md:my-16  w-[120px] shadow-blue-500/95 shadow-lg transition-transform duration-400 transform hover:scale-110 peer">
-                            <img className="h-16 w-20 flex mx-auto mt-4" src={nodejs_logo} alt="" />
+                        <div className="bg-white  md:my-16 my-4 w-[120px] shadow-blue-500/95 shadow-lg transition-transform duration-400 transform hover:scale-110 peer">
+                            <img className="h-16 w-20  flex mx-auto mt-4" src={nodejs_logo} alt="" />
                             <h5 className="md:text-xl text-lg font-semibold py-2 text-center text-black">Node.js</h5>
                         </div>
-                        <div className="bg-gradient-to-r from-purple-600 to-blue-600  md:my-16  w-[120px] shadow-blue-500/95 shadow-lg transition-transform duration-400 transform hover:scale-110 peer">
+                        <div className="bg-gradient-to-r from-purple-600 to-blue-600  md:my-16 my-4 w-[120px] shadow-blue-500/95 shadow-lg transition-transform duration-400 transform hover:scale-110 peer">
                             <img className="h-16 w-16 flex mx-auto mt-4 rounded-full" src={mongo_logo} alt="" />
                             <h5 className="md:text-xl text-lg font-semibold py-2 text-center">NongoDB</h5>
                         </div>
-                        <div className="bg-gradient-to-r from-purple-600 to-rose-800 md:my-16   shadow-rose-500/95 shadow-lg w-[120px]  transition-transform duration-400 transform hover:scale-110 peer">
+                        <div className="bg-gradient-to-r from-purple-600 to-rose-800 md:my-16  my-4 shadow-rose-500/95 shadow-lg w-[120px]  transition-transform duration-400 transform hover:scale-110 peer">
                             <img className="h-16 w-16 mt-4 flex mx-auto rounded-full" src={ex_logo} alt="" />
                             <h5 className="md:text-xl text-lg font-semibold py-2 text-center">Express.js</h5>
                         </div>
