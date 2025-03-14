@@ -11,14 +11,15 @@ const Projects = () => {
         <div id="projects" className="w-[90%] mx-auto my-8">
             <h2 className="md:text-2xl font-semibold text-lg py-8">Some of the projects I have done</h2>
             <div className="grid md:grid-cols-2 lg:grid-cols-3 grid-cols-2 md:gap-12 gap-4">
-                <div className="">
-                    <div className="relative">
-                        <img className="brightness-50 " src={resturant} alt="" />
+                <div className="bg-[url(https://i.ibb.co.com/VW4Zbkp8/side-view-shawarma-with-fried-potatoes-board-cookware.jpg)] bg-cover flex justify-center items-end">
+                    <div className="flex  justify-center py-auto ">
+                        <div className="">
+                            <h2 className=" md:text-2xl text-xl font-semibold ">Bistro boss resturant</h2>
+                            <Link to="/bostroBoss">
+                                <button className="  md:text-xl text-lg  bg-gradient-to-l px-2 py-1 from-purple-700 to-orange-700 rounded-sm hover:shadow-purple-500/95 shadow-lg ">View More</button>
+                            </Link>
+                        </div>
                     </div>
-                    <h2 className="relative md:bottom-28 bottom-32 left-12 md:left-20 md:text-2xl text-xl font-semibold">Bistro boss resturant</h2>
-                    <Link to="/bostroBoss">
-                        <button className="  md:text-xl text-lg relative md:bottom-24 bottom-28 md:-right-36 -right-10 bg-gradient-to-l px-2 py-1 from-purple-700 to-orange-700 rounded-sm hover:shadow-purple-500/95 shadow-lg ">View More</button>
-                    </Link>
                 </div>
                 <div className="">
                     <div className="relative">

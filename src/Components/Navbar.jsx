@@ -20,9 +20,9 @@ const Navbar = () => {
                             <li className='cursor-pointer'><a href="#aboutMe">About me</a></li>
                             <li className='cursor-pointer'><a href="#skills">Skills</a></li>
                             <li className='cursor-pointer'><a href="#projects">Projects</a></li>
-                            <Link>
-                                <button className='flex items-center gap-1 bg-gradient-to-l px-2 py-1 from-purple-700 to-orange-700 rounded-sm'>Resume <img className='h-6 w-6' src={resume_logo} alt="" /></button>
-                            </Link>
+
+                            <button className='flex items-center gap-1 bg-gradient-to-l px-2 py-1 from-purple-700 to-orange-700 rounded-sm hover:bg-gradient-to-l hover:from-slate-500 hover:to-black'><a href="https://drive.google.com/file/d/1QI0oUih78R1d1m2Y3lUT-nCQonSutkuy/view?usp=sharing"> Resume</a> <img className='h-6 w-6' src={resume_logo} alt="" /></button>
+
                         </ul>
                     </div>
                     <img className='h-16' src={hello} alt="" />
@@ -36,9 +36,7 @@ const Navbar = () => {
                         <li className='cursor-pointer'><a href="#aboutMe">About me</a></li>
                         <li className='cursor-pointer'><a href="#skills">Skills</a></li>
                         <li className='cursor-pointer'><a href="#projects">Projects</a></li>
-                        <Link>
-                            <button className='flex items-center gap-1 bg-gradient-to-l px-2 py-1 from-purple-700 to-orange-700 rounded-sm'>Resume <img className='h-6 w-6' src={resume_logo} alt="" /></button>
-                        </Link>
+                        <button className='flex items-center gap-1 bg-gradient-to-l from-purple-700 to-orange-700 rounded-sm hover:bg-gradient-to-l hover:from-slate-500 hover:to-black btn'><a href="https://drive.google.com/file/d/1QI0oUih78R1d1m2Y3lUT-nCQonSutkuy/view?usp=sharing"> Resume</a> <img className='h-6 w-6' src={resume_logo} alt="" /></button>
 
                     </ul>
 
