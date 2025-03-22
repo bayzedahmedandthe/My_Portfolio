@@ -37,8 +37,8 @@ const BistroBoss = () => {
                     </div>
                 </div>
                 <div className="flex lg:justify-end md:gap-6 gap-4 lg:mt-0  mt-10">
-                    <Link to="https://job-portal-512fe.web.app/">
-                        <button className='flex items-center gap-1 bg-gradient-to-l px-2 py-1 from-purple-700 to-orange-700 rounded-sm text-lg'>Live Demo</button>
+                    <Link to="https://bistro-boss-3bc7d.web.app/">
+                        <button className='flex items-center gap-1 bg-gradient-to-l px-2 py-1 from-purple-700 to-orange-700 rounded-sm text-lg hover:shadow-purple-500/95 shadow-xl'>Live Demo</button>
                     </Link>
                     <Link to="https://github.com/bayzedahmedandthe/bistro-boss-client-site">
                         <button className='flex items-center gap-1 bg-gradient-to-l px-2 py-1 from-slate-700 to-gray-700 rounded-sm text-lg'>Cient Code</button>

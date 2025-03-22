@@ -39,7 +39,7 @@ const JobPortal = () => {
                 </div>
                 <div className="flex lg:justify-end md:gap-6 gap-4 lg:mt-0  mt-10">
                     <Link to="https://job-portal-512fe.web.app/">
-                        <button className='flex items-center gap-1 bg-gradient-to-l px-2 py-1 from-purple-700 to-orange-700 rounded-sm text-lg'>Live Demo</button>
+                        <button className='flex items-center gap-1 bg-gradient-to-l px-2 py-1 from-purple-700 to-orange-700 rounded-sm text-lg hover:shadow-purple-500/95 shadow-xl'>Live Demo</button>
                     </Link>
                     <Link to="https://github.com/bayzedahmedandthe/Job-portal?tab=readme-ov-file">
                         <button className='flex items-center gap-1 bg-gradient-to-l px-2 py-1 from-slate-700 to-gray-700 rounded-sm text-lg'>Cient Code</button>

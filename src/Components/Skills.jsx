@@ -13,7 +13,7 @@ import Marquee from "react-fast-marquee"
 
 const Skills = () => {
     return (
-        <div id="skills" className="md:w-[83%] mx-auto my-12">
+        <div id="skills" className="md:w-[83%] w-[90%] mx-auto my-12">
             <h2 className=" text-center md:text-3xl text-xl font-semibold pt-8 pb-4 text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to bg-orange-700">Skills</h2>
             <h4 className="md:text-xl text-lg font-semibold md:py-4 md:pl-0 pl-4  py-2">Frontend skills</h4>
             <Marquee pauseOnHover direction="right">
@@ -56,7 +56,7 @@ const Skills = () => {
                     </div>
                 </div>
             </Marquee>
-            <h4 className="md:text-xl text-lg font-semibold md:mt-12 py-4">Backend skills</h4>
+            <h4 className="md:text-xl text-lg font-semibold md:mt-12 py-4 md:pl-0 pl-4">Backend skills</h4>
             <div className="md:w-[68%] lg:w-[58%] mx-auto">
                 <Marquee pauseOnHover>
                     <div className="flex justify-center md:gap-10 gap-2 flex-wrap">
