@@ -7,7 +7,7 @@ import Skills from "../Components/Skills";
 
 const HomePage = () => {
     return (
-        <div>
+        <div className="bg-[#011420]">
             <Navbar></Navbar>
             <Banner></Banner>
             <AboutMe></AboutMe>

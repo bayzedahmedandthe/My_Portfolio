@@ -7,7 +7,7 @@ import { Link } from "react-router-dom"
 
 const BistroBoss = () => {
     return (
-        <div className=" text-white py-44">
+        <div className=" text-white py-44 bg-[#011420]">
             <div className="md:w-[40%] w-[90%] mx-auto">
                 <h2 className="md:text-2xl text-lg font-semibold">Bistro Boss Resturant</h2>
                 <p className="py-4">My this site  is the best for ordering your favorite food. Here you can order any type of food you like. The beautiful design of this website is bound to capture your attention</p>

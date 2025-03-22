@@ -7,7 +7,7 @@ import { Link } from "react-router-dom"
 
 const ServiceReview = () => {
     return (
-        <div className=" min-h-screen text-white py-44">
+        <div className=" min-h-screen text-white py-44 bg-[#011420]">
             <div className="md:w-[40%] w-[90%] mx-auto">
                 <h2 className="md:text-2xl text-lg font-semibold">Service Review</h2>
                 <p className="py-4">This is a Service review related website. You can review the service posts onthis website if you want. You can add, delete, and update services if you want</p>

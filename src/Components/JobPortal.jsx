@@ -8,7 +8,7 @@ import { Link } from "react-router-dom"
 
 const JobPortal = () => {
     return (
-        <div className=" min-h-screen text-white py-44">
+        <div className=" min-h-screen text-white py-44 bg-[#011420]">
             <div className="md:w-[40%] w-[90%]  mx-auto">
                 <h2 className="md:text-2xl text-lg font-semibold">Job portal</h2>
                 <p className="py-4">This is a wonderful website. This website is beautiful. It will take your mind away. If you want, You can apply for a job and post a job from this websites</p>
