@@ -37,7 +37,7 @@ const Contact = () => {
     }
 
 return (
-    <div className="lg:py-28 py-4 bg-[url(https://i.ibb.co.com/GQshb0MC/scratched-concrete-flooring-textured-backdrop.jpg)] bg-fixed">
+    <div id="contact" className="lg:py-28 py-4 bg-[url(https://i.ibb.co.com/GQshb0MC/scratched-concrete-flooring-textured-backdrop.jpg)] bg-fixed">
         <div className=" border-t border-l rounded-md border-orange-600  bg-slate-800 opacity-80 lg:w-10/12 w-[94%] mx-auto  text-white">
             <h2 className="pt-6 text-center md:text-4xl font-semibold text-2xl text-orange-600 ">Get in touch </h2>
             <div className="md:flex items-start justify-around">
@@ -61,7 +61,7 @@ return (
                     <button className=" mt-4 bg-gradient-to-l md:px-2 px-1 py-1 btn from-purple-700 to-orange-700 rounded-sm text-xs md:text-lg  hover:shadow-purple-500/95 shadow-xl ">Send Message</button>
                 </form>
                 <div className=" md:mt-12 mt-0 md:w-full w-[94%] mx-auto ">
-                    <h2 className="text-orange-600 md:text-3xl text-2xl font-semibold pb-2">Contact Us</h2>
+                    <h2 className="text-orange-600 md:text-3xl text-2xl font-semibold pb-2">Contact Me</h2>
                     <div className="flex items-center gap-2 py-2 text-lg">
                         <img className="h-6 w-6" src={location} alt="" />
                         <div>

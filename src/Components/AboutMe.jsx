@@ -4,8 +4,8 @@ import animationData from '../assets/Animation - 1742667434052.json';
 const AboutMe = () => {
     const options = {
         animationData: animationData,
-        loop: true,         // অ্যানিমেশনটি লুপে চলবে
-        autoplay: true,     // অ্যানিমেশনটি অটোপ্লে হবে
+        loop: true,       
+        autoplay: true,     
     };
     return (
         <div id="aboutMe" className="lg:w-10/12 max-w-[90%]  mx-auto my-12">
