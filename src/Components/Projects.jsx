@@ -20,7 +20,7 @@ const Projects = () => {
                         </div>
                         <h2 className=" md:text-2xl text-xl font-semibold p-2">Bistro boss resturant</h2>
                         <div className="flex justify-end">
-                            <button onClick={() => document.getElementById('my_modal_5').showModal()} className="m-2  md:text-xl text-lg  bg-gradient-to-l px-2 py-1 from-purple-700 to-orange-700 rounded-sm hover:shadow-purple-500/95 shadow-xl ">View More</button>
+                            <button onClick={() => document.getElementById('my_modal_5').showModal()} className="m-2  md:text-xl text-lg  bg-gradient-to-l px-2 py-1 from-purple-700 to-rose-700 rounded-sm hover:shadow-purple-500/95 shadow-xl ">View More</button>
                         </div>
                         {/* Open the modal using document.getElementById('ID').showModal() method */}
                         <dialog id="my_modal_5" className="modal modal-bottom sm:modal-middle">
@@ -56,10 +56,10 @@ const Projects = () => {
                                         </div>
                                         <div className="flex lg:justify-end md:gap-6 gap-4 lg:mt-0  mt-10">
                                             <Link to="https://bistro-boss-3bc7d.web.app/">
-                                                <button className='flex items-center gap-1 bg-gradient-to-l px-2 py-1 from-purple-700 to-orange-700 rounded-sm text-lg hover:shadow-purple-500/95 shadow-xl'>Live Demo</button>
+                                                <button className='flex items-center gap-1 bg-gradient-to-l px-2 py-1 from-purple-700 to-rose-700 rounded-sm text-lg hover:shadow-purple-500/95 shadow-xl'>Live Demo</button>
                                             </Link>
                                             <Link to="https://github.com/bayzedahmedandthe/bistro-boss-client-site">
-                                                <button className='flex items-center gap-1 bg-gradient-to-l px-2 py-1 from-slate-700 to-gray-700 rounded-sm text-lg'>Cient Code</button>
+                                                <button className='flex items-center gap-1 bg-gradient-to-l px-2 py-1 from-purple-700 to-rose-700 rounded-sm text-lg'>Cient Code</button>
                                             </Link>
                                         </div>
                                     </div>
@@ -82,7 +82,7 @@ const Projects = () => {
                         </div>
                         <h2 className=" md:text-2xl text-xl font-semibold p-2">Job Portal</h2>
                         <div className="flex justify-end">
-                            <button onClick={() => document.getElementById('my_modal_6').showModal()} className="m-2  md:text-xl text-lg  bg-gradient-to-l px-2 py-1 from-purple-700 to-orange-700 rounded-sm hover:shadow-purple-500/95 shadow-xl ">View More</button>
+                            <button onClick={() => document.getElementById('my_modal_6').showModal()} className="m-2  md:text-xl text-lg  bg-gradient-to-l px-2 py-1 from-purple-700 to-rose-700 rounded-sm hover:shadow-purple-500/95 shadow-xl ">View More</button>
                         </div>
                         <dialog id="my_modal_6" className="modal modal-bottom sm:modal-middle">
                             <div className="modal-box">
@@ -117,10 +117,10 @@ const Projects = () => {
                                         </div>
                                         <div className="flex lg:justify-end md:gap-6 gap-4 lg:mt-0  mt-10">
                                             <Link to="https://job-portal-512fe.web.app/">
-                                                <button className='flex items-center gap-1 bg-gradient-to-l px-2 py-1 from-purple-700 to-orange-700 rounded-sm text-lg hover:shadow-purple-500/95 shadow-xl'>Live Demo</button>
+                                                <button className='flex items-center gap-1 bg-gradient-to-l px-2 py-1 from-purple-700 to-rose-700 rounded-sm text-lg hover:shadow-purple-500/95 shadow-xl'>Live Demo</button>
                                             </Link>
                                             <Link to="https://github.com/bayzedahmedandthe/Job-portal?tab=readme-ov-file">
-                                                <button className='flex items-center gap-1 bg-gradient-to-l px-2 py-1 from-slate-700 to-gray-700 rounded-sm text-lg'>Cient Code</button>
+                                                <button className='flex items-center gap-1 bg-gradient-to-l px-2 py-1 from-purple-700 to-rose-700 rounded-sm text-lg'>Cient Code</button>
                                             </Link>
                                         </div>
                                     </div>
@@ -143,7 +143,7 @@ const Projects = () => {
                         <h2 className=" md:text-2xl text-xl font-semibold p-2">Service Review</h2>
 
                         <div className="flex justify-end ">
-                            <button onClick={() => document.getElementById('my_modal_7').showModal()} className="m-2 md:text-xl text-lg  bg-gradient-to-l px-2 py-1 from-purple-700 to-orange-700 rounded-sm hover:shadow-purple-500/95 shadow-xl ">View More</button>
+                            <button onClick={() => document.getElementById('my_modal_7').showModal()} className="m-2 md:text-xl text-lg  bg-gradient-to-l px-2 py-1 from-purple-700 to-rose-700 rounded-sm hover:shadow-purple-500/95 shadow-xl ">View More</button>
                         </div>
                         <dialog id="my_modal_7" className="modal modal-bottom sm:modal-middle">
                             <div className="modal-box">
@@ -178,10 +178,10 @@ const Projects = () => {
                                         </div>
                                         <div className="flex lg:justify-end md:gap-6 gap-4 lg:mt-0  mt-10">
                                             <Link to="https://assaignment-11-5c7ac.web.app/">
-                                                <button className='flex items-center gap-1 bg-gradient-to-l px-2 py-1 from-purple-700 to-orange-700 rounded-sm text-lg hover:shadow-purple-500/95 shadow-xl'>Live Demo</button>
+                                                <button className='flex items-center gap-1 bg-gradient-to-l px-2 py-1 from-purple-700 to-rose-700 rounded-sm text-lg hover:shadow-purple-500/95 shadow-xl'>Live Demo</button>
                                             </Link>
                                             <Link to="https://github.com/bayzedahmedandthe/Service-review?tab=readme-ov-file">
-                                                <button className='flex items-center gap-1 bg-gradient-to-l px-2 py-1 from-slate-700 to-gray-700 rounded-sm text-lg'>Cient Code</button>
+                                                <button className='flex items-center gap-1 bg-gradient-to-l px-2 py-1 from-purple-700 to-rose-700  text-lg hover:shadow-purple-500/95 shadow-xl rounded-sm '>Cient Code</button>
                                             </Link>
 
                                         </div>
