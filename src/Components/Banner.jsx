@@ -1,4 +1,3 @@
-// import { Link } from "react-scroll";
 import bayzed from "../assets/Bayzed.png"
 import fb_logo from "../assets/download.jpg"
 import github_logo from "../assets/download (1).png"
@@ -6,7 +5,6 @@ import whatsapp_logo from "../assets/download__1_-removebg-preview.png"
 import linkedin_logo from "../assets/download (2).png"
 import resume_logo from "../assets/icons8-download-64.png"
 import { TypeAnimation } from "react-type-animation";
-// import { BsHexagon } from "react-icons/bs";
 import { useEffect } from "react"
 const Banner = () => {
     useEffect(() => {
@@ -17,7 +15,7 @@ const Banner = () => {
             <div className=" lg:w-10/12 w-[94%] mx-auto md:py-32 py-16 ">
                 <div className="md:flex md:items-center md:justify-between ">
                     {/* title and description container */}
-                    <div className="md:space-y-3 ">
+                    <div className="md:space-y-3 md:pt-0 pt-16 md:text-start text-center">
                         <h4 className="text-lg md:text-2xl font-semibold text-white">Hello, I am </h4>
                         <h2 className="animate-pulse md:text-4xl font-semibold text-2xl text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to bg-rose-700">Bayzed Ahmed </h2>
                         <div style={{ overflow: "hidden" }}>
@@ -28,6 +26,8 @@ const Banner = () => {
                                     1000, // wait 1s before replacing "Mice" with "Hamsters"
                                     'Frontend developer',
                                     1000,
+                                    'React.js developer',
+                                    1000,
                                 ]}
                                 wrapper="span"
                                 speed={12}
@@ -36,15 +36,17 @@ const Banner = () => {
                             />
                         </div>
                         <p className="text-white md:font-medium">I like to create attractive websites</p>
-                        <div className="flex justify-start mt-4">
-                            <button className='flex items-center gap-1 bg-gradient-to-l md:px-2 px-1 py-1 from-purple-700 to-rose-700 rounded-sm text-xs md:text-lg hover:shadow-purple-500/95 shadow-xl btn'><a href="https://drive.google.com/file/d/1QI0oUih78R1d1m2Y3lUT-nCQonSutkuy/view?usp=sharing">Download Resume</a> <img className='h-6 w-6' src={resume_logo} alt="" /></button>
-                        </div>
-                        <div className="flex items-center lg:gap-4 gap-2 mt-4">
-                            <a href="https://www.facebook.com/afifahomed.akib"><img className="md:h-10 md:w-10 h-6 w-6 rounded-full" src={fb_logo} alt="" /></a>
-                            <a href="https://github.com/bayzedahmedandthe"><img className="md:h-10 md:w-10 h-6 w-6 rounded-full" src={github_logo} alt="" /></a>
-                            <a href="https://wa.link/ckvcjd"><img className="md:h-10 md:w-10 h-6 w-6" src={whatsapp_logo} alt="" /></a>
-                            <a href="https://www.linkedin.com/in/bayzed-ahmed-69914a34b/"><img className="md:h-10 md:w-10 h-6 w-6 rounded-full" src={linkedin_logo} alt="" /></a>
-                        </div>
+                       
+                            <div className="flex md:justify-start justify-center mt-4">
+                                <button className='flex items-center gap-1 bg-gradient-to-l md:px-2 px-1 py-1 from-purple-700 to-rose-700 rounded-sm text-xs md:text-lg hover:shadow-purple-500/95 shadow-xl btn'><a href="https://drive.google.com/file/d/1QI0oUih78R1d1m2Y3lUT-nCQonSutkuy/view?usp=sharing">Download Resume</a> <img className='h-6 w-6' src={resume_logo} alt="" /></button>
+                            </div>
+                            <div className="flex items-center md:justify-start justify-center lg:gap-4 gap-2 mt-4 mb-8">
+                                <a href="https://www.facebook.com/afifahomed.akib"><img className="md:h-10 md:w-10 h-6 w-6 rounded-full" src={fb_logo} alt="" /></a>
+                                <a href="https://github.com/bayzedahmedandthe"><img className="md:h-10 md:w-10 h-6 w-6 rounded-full" src={github_logo} alt="" /></a>
+                                <a href="https://wa.link/ckvcjd"><img className="md:h-10 md:w-10 h-6 w-6" src={whatsapp_logo} alt="" /></a>
+                                <a href="https://www.linkedin.com/in/bayzed-ahmed-69914a34b/"><img className="md:h-10 md:w-10 h-6 w-6 rounded-full" src={linkedin_logo} alt="" /></a>
+                            </div>
+                        
                     </div>
                     {/* img container */}
                     <div className="">

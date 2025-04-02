@@ -58,7 +58,7 @@ return (
                         <legend className="fieldset-legend text-lg">Message</legend>
                         <textarea {...register("message")} type="text" placeholder="Enter your message" required className="textarea textarea-error"></textarea>
                     </fieldset>
-                    <button className=" mt-4 bg-gradient-to-l md:px-2 px-1 py-1 btn from-purple-700 to-orange-700 rounded-sm text-xs md:text-lg  hover:shadow-purple-500/95 shadow-xl ">Send Message</button>
+                    <button className=" mt-4 bg-gradient-to-l md:px-2 px-1 py-1 btn from-purple-700 to-rose-700 rounded-sm text-xs md:text-lg  hover:shadow-purple-500/95 shadow-xl ">Send Message</button>
                 </form>
                 <div className=" md:mt-12 mt-0 md:w-full w-[94%] mx-auto ">
                     <h2 className="text-rose-600 md:text-3xl text-2xl font-semibold pb-2">Contact Me</h2>

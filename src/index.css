@@ -4,3 +4,10 @@ html, body {
     scroll-behavior: auto !important;
     overflow-x: hidden;
 }
+@keyframes zoomEffect {
+    0%, 100% { transform: scale(1); } /* স্বাভাবিক আকার */
+    50% { transform: scale(1.2); } /* Zoom-in */
+  }
+  .animate-zoom {
+    animation: zoomEffect 4s infinite; /* ২ সেকেন্ডে বারবার zoom-in & zoom-out হবে */
+  }
