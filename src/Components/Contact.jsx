@@ -5,6 +5,8 @@ import whatsup from "../assets/icons8-whatsapp-logo-50.png"
 import facebook from "../assets/download.jpg"
 import { useForm } from "react-hook-form"
 import Swal from "sweetalert2"
+import { useEffect } from "react"
+import Aos from "aos"
 
 const Contact = () => {
     const { register, handleSubmit, reset } = useForm();
@@ -34,11 +36,14 @@ const Contact = () => {
         } catch (error) {
             console.error("Error:", error);
         }
-    }
+    };
+    useEffect(() => {
+        Aos.init();
+    }, [])
 
 return (
     <div id="contact" className="lg:py-28 py-4 bg-[url(https://i.ibb.co.com/GQshb0MC/scratched-concrete-flooring-textured-backdrop.jpg)] bg-fixed">
-        <div className="bg-slate-800 opacity-80 lg:w-10/12 w-[94%] mx-auto  text-white">
+        <div data-aos="zoom-out-up" data-aos-duration="3000" className="bg-slate-800 opacity-80 lg:w-10/12 w-[94%] mx-auto  text-white">
             <h2 className="pt-6 text-center md:text-4xl font-semibold text-2xl text-rose-600 ">Get in touch </h2>
             <div className="md:flex items-start justify-around">
                 <form onSubmit={handleSubmit(onSubmit)} className="p-4 w-full md:mt-6 mt-0 md:ml-20 ml-0">
@@ -58,7 +63,7 @@ return (
                         <legend className="fieldset-legend text-lg">Message</legend>
                         <textarea {...register("message")} type="text" placeholder="Enter your message" required className="textarea textarea-error"></textarea>
                     </fieldset>
-                    <button className=" mt-4 bg-gradient-to-l md:px-2 px-1 py-1 btn from-purple-700 to-rose-700 rounded-sm text-xs md:text-lg  hover:shadow-purple-500/95 shadow-xl ">Send Message</button>
+                    <button className=" mt-4 bg-gradient-to-l px-2 py-1 btn from-purple-700 to-rose-700 rounded-sm text-xs md:text-lg  hover:shadow-purple-500/95 shadow-xl ">Send Message</button>
                 </form>
                 <div className=" md:mt-12 mt-0 md:w-full w-[94%] mx-auto ">
                     <h2 className="text-rose-600 md:text-3xl text-2xl font-semibold pb-2">Contact Me</h2>

@@ -6,16 +6,18 @@ import linkedin_logo from "../assets/download (2).png"
 import resume_logo from "../assets/icons8-download-64.png"
 import { TypeAnimation } from "react-type-animation";
 import { useEffect } from "react"
+import Aos from "aos"
 const Banner = () => {
     useEffect(() => {
         window.scrollTo(0, 0);
+        Aos.init();
     }, []);
     return (
         <div className="bg-[url(https://i.ibb.co/zT1jN9CT/944cf495-2f5a-49c0-a973-79630bca05c9.jpg)] bg-cover drop-shadow-[0_35px_35px_rgba(0,0,0,0.25)]">
             <div className=" lg:w-10/12 w-[94%] mx-auto md:py-32 py-16 ">
                 <div className="md:flex md:items-center md:justify-between ">
                     {/* title and description container */}
-                    <div className="md:space-y-3 md:pt-0 pt-16 md:text-start text-center">
+                    <div data-aos="fade-up" data-aos-duration="3000" className="md:space-y-3 md:pt-0 pt-16 md:text-start text-center">
                         <h4 className="text-lg md:text-2xl font-semibold text-white">Hello, I am </h4>
                         <h2 className="animate-pulse md:text-4xl font-semibold text-2xl text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to bg-rose-700">Bayzed Ahmed </h2>
                         <div style={{ overflow: "hidden" }}>
@@ -49,13 +51,10 @@ const Banner = () => {
                         
                     </div>
                     {/* img container */}
-                    <div className="">
+                    <div data-aos="fade-down" data-aos-duration="3000">
                         <div className="flex items-center justify-center md:pt-2 pt-0">
-                            <img className="lg:w-full  w-[70%] h-[70%] border-[#e7237f] border-4 rounded-full bg-[#021d3d] lg:h-[350px] " src={bayzed} alt="Bayzed" />
+                            <img className="lg:w-full  w-[70%] h-[70%] border-[#006eff] border rounded-full  shadow-[0_0_20px_#006eff] bg-[#021d3d] lg:h-[350px] " src={bayzed} alt="Bayzed" />
                         </div>
-                        {/* <div className="absolute -z-10 justify-center items-end animate-pulse">
-                            <BsHexagon className="md:h-[80%] h-[60%] min-h-[450px] md:w-auto w-[90%] blur-xs mx-auto text-purple-600  animate-[spin_20s_linear_infinite]" />
-                        </div> */}
                     </div>
                 </div>
             </div>
