@@ -3,6 +3,7 @@
 html, body {
     scroll-behavior: auto !important;
     overflow-x: hidden;
+    font-family: unset;
 }
 @keyframes zoomEffect {
     0%, 100% { transform: scale(1); } /* স্বাভাবিক আকার */
