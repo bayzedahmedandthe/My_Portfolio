@@ -43,7 +43,7 @@ const Navbar = () => {
                         <li className="cursor-pointer border-b-2 border-transparent hover:text-[#6ba6ff] transition-colors duration-500 transform  hover:border-blue-400" onClick={() => scrollToSection("skills")}>Skills</li>
                         <li className="cursor-pointer border-b-2 border-transparent hover:text-[#6ba6ff] transition-colors duration-500 transform  hover:border-blue-400" onClick={() => scrollToSection("projects")}>Projects</li>
                         <li className="cursor-pointer border-b-2 border-transparent hover:text-[#6ba6ff] transition-colors duration-500 transform  hover:border-blue-400" onClick={() => scrollToSection("contact")}>Contact Me</li>
-                        <button className='flex items-center gap-1 bg-gradient-to-l from-purple-700 to-rose-700 rounded-sm hover:shadow-purple-500/95 shadow-xl btn'><a href="https://drive.google.com/file/d/1QI0oUih78R1d1m2Y3lUT-nCQonSutkuy/view?usp=sharing"> Resume</a> <img className='h-6 w-6' src={resume_logo} alt="" /></button>
+                        <button className='flex items-center gap-1 bg-gradient-to-l from-purple-700 to-rose-700 rounded-sm hover:shadow-purple-500/95 shadow-xl btn'><a target="_blank" href="https://drive.google.com/file/d/1SYLje_VUjM_8x96LXmF2AoFoRhlcPFtK/view?usp=sharing"> Resume </a> <img className='h-6 w-6' src={resume_logo} alt="" /></button>
                     </ul>
                 </div>
             </div>

@@ -6,7 +6,6 @@ import firebase_logo from "../assets/1_R4c8lHBHuH5qyqOtZb3h-w-removebg-preview.p
 import tailwind_logo from "../assets/download-removebg-preview.png"
 import nodejs_logo from "../assets/download-removebg-preview (3).png"
 import mongo_logo from "../assets/mongo.png"
-import { Link } from "react-router-dom"
 import { useEffect } from "react"
 import Aos from "aos"
 
@@ -61,12 +60,12 @@ const Projects = () => {
                                             </div>
                                         </div>
                                         <div className="flex lg:justify-end md:gap-6 gap-4 lg:mt-0  mt-10">
-                                            <Link to="https://bistro-boss-3bc7d.web.app/">
+                                            <a target="_blank" href="https://bistro-boss-3bc7d.web.app/">
                                                 <button className='flex items-center gap-1 bg-gradient-to-l px-2 py-1 from-purple-700 to-rose-700 rounded-sm text-lg hover:shadow-purple-500/95 shadow-xl'>Live Demo</button>
-                                            </Link>
-                                            <Link to="https://github.com/bayzedahmedandthe/bistro-boss-client-site">
+                                            </a>
+                                            <a target="_blank" href="https://github.com/bayzedahmedandthe/bistro-boss-client-site">
                                                 <button className='flex items-center gap-1 bg-gradient-to-l px-2 py-1 from-purple-700 to-rose-700 rounded-sm text-lg'>Cient Code</button>
-                                            </Link>
+                                            </a>
                                         </div>
                                     </div>
                                 </div>
@@ -123,12 +122,12 @@ const Projects = () => {
                                             </div>
                                         </div>
                                         <div className="flex lg:justify-end md:gap-6 gap-4 lg:mt-0  mt-10">
-                                            <Link to="https://job-portal-512fe.web.app/">
+                                            <a target="_blank" href="https://job-portal-512fe.web.app/">
                                                 <button className='flex items-center gap-1 bg-gradient-to-l px-2 py-1 from-purple-700 to-rose-700 rounded-sm text-lg hover:shadow-purple-500/95 shadow-xl'>Live Demo</button>
-                                            </Link>
-                                            <Link to="https://github.com/bayzedahmedandthe/Job-portal?tab=readme-ov-file">
+                                            </a>
+                                            <a target="_blank" href="https://github.com/bayzedahmedandthe/Job-portal?tab=readme-ov-file">
                                                 <button className='flex items-center gap-1 bg-gradient-to-l px-2 py-1 from-purple-700 to-rose-700 rounded-sm text-lg'>Cient Code</button>
-                                            </Link>
+                                            </a >
                                         </div>
                                     </div>
                                 </div>
@@ -186,12 +185,12 @@ const Projects = () => {
                                             </div>
                                         </div>
                                         <div className="flex lg:justify-end md:gap-6 gap-4 lg:mt-0  mt-10">
-                                            <Link to="https://assaignment-11-5c7ac.web.app/">
+                                            <a target="_blank" href="https://assaignment-11-5c7ac.web.app/">
                                                 <button className='flex items-center gap-1 bg-gradient-to-l px-2 py-1 from-purple-700 to-rose-700 rounded-sm text-lg hover:shadow-purple-500/95 shadow-xl'>Live Demo</button>
-                                            </Link>
-                                            <Link to="https://github.com/bayzedahmedandthe/Service-review?tab=readme-ov-file">
+                                            </a>
+                                            <a target="_blank" href="https://github.com/bayzedahmedandthe/Service-review?tab=readme-ov-file">
                                                 <button className='flex items-center gap-1 bg-gradient-to-l px-2 py-1 from-purple-700 to-rose-700  text-lg hover:shadow-purple-500/95 shadow-xl rounded-sm '>Cient Code</button>
-                                            </Link>
+                                            </a>
 
                                         </div>
                                     </div>

@@ -8,7 +8,7 @@ import Skills from "../Components/Skills";
 
 const HomePage = () => {
     return (
-        <div className=" ">
+        <div className="inter">
             <div>
                 <Navbar></Navbar>
             </div>
