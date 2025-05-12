@@ -19,7 +19,7 @@ const Banner = () => {
                     {/* title and description container */}
                     <div data-aos="fade-up" data-aos-duration="3000" className="md:space-y-3 md:pt-0 pt-16 md:text-start text-center">
                         <h4 className="text-lg md:text-2xl font-semibold text-white">Hello, I am </h4>
-                        <h2 className=" md:text-7xl font-semibold text-4xl saira text-purple-500">Bayzed Ahmed </h2>
+                        <h2 className=" md:text-7xl font-semibold text-4xl saira text-[#39FF14]">Bayzed Ahmed </h2>
                         <div style={{ overflow: "hidden" }}>
                             <TypeAnimation
                                 sequence={[
@@ -39,7 +39,7 @@ const Banner = () => {
                         <p className="text-white md:font-medium">I like to create attractive websites</p>
 
                         <div className="flex md:justify-start justify-center mt-4">
-                            <button className='flex items-center gap-1 bg-gradient-to-l md:px-2 px-1 py-1 from-purple-700 to-rose-700 rounded-sm text-xs md:text-lg hover:shadow-purple-500/95 shadow-xl btn'><a target="_blank" href="https://drive.google.com/file/d/1SYLje_VUjM_8x96LXmF2AoFoRhlcPFtK/view?usp=sharing">Download Resume</a> <img className='h-6 w-6' src={resume_logo} alt="" /></button>
+                            <button className='flex items-center my-2 gap-1 bg-[#01142c] md:px-4 px-1 py-1 border-[#39FF14] rounded-full text-xs md:text-lg hover:shadow-green-500/95 shadow-lg btn'><a target="_blank" href="https://drive.google.com/file/d/1SYLje_VUjM_8x96LXmF2AoFoRhlcPFtK/view?usp=sharing">Download Resume</a> <img className='h-6 w-6' src={resume_logo} alt="" /></button>
                         </div>
                         <div className="flex items-center md:justify-start justify-center lg:gap-4 gap-2 mt-4 mb-8">
                             <a target="_blank" href="https://www.facebook.com/afifahomed.akib"><img className="md:h-10 md:w-10 h-6 w-6 rounded-full" src={fb_logo} alt="" /></a>
@@ -52,7 +52,7 @@ const Banner = () => {
                     {/* img container */}
                     <div data-aos="fade-down" data-aos-duration="3000">
                         <div className="flex items-center justify-center md:pt-2 pt-0">
-                            <img className="lg:w-full transition-transform duration-400 transform hover:scale-110 pee  w-[80%] h-[80%] border-[#006eff] border rounded-full  shadow-[0_0_20px_#006eff] bg-[#021d3d] lg:h-[350px] " src={bayzed} alt="Bayzed" />
+                            <img className="lg:w-full transition-transform duration-400 transform hover:scale-110 pee  w-[80%] h-[80%] border-[#39FF14] border rounded-full  shadow-[0_0_20px_#39FF14] bg-[#021d3d] lg:h-[350px] " src={bayzed} alt="Bayzed" />
                         </div>
                     </div>
                 </div>
