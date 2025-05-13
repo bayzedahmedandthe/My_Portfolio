@@ -51,10 +51,10 @@ const Banner = () => {
                         </div>
 
                         <div className="flex items-center md:justify-start justify-center lg:gap-4 gap-2 mt-4 mb-8">
-                            <a target="_blank" href="https://www.facebook.com/afifahomed.akib"><img className="md:h-10 md:w-10 h-6 w-6 rounded-full" src={fb_logo} alt="" /></a>
-                            <a target="_blank" href="https://github.com/bayzedahmedandthe"><img className="md:h-10 md:w-10 h-6 w-6 rounded-full" src={github_logo} alt="" /></a>
-                            <a target="_blank" href="https://wa.link/ckvcjd"><img className="md:h-10 md:w-10 h-6 w-6" src={whatsapp_logo} alt="" /></a>
-                            <a target="_blank" href="https://www.linkedin.com/in/bayzed-ahmed-69914a34b/"><img className="md:h-10 md:w-10 h-6 w-6 rounded-full" src={linkedin_logo} alt="" /></a>
+                            <a target="_blank" href="https://www.facebook.com/afifahomed.akib"><img className="md:h-8 md:w-8 h-6 w-6 rounded-full" src={fb_logo} alt="" /></a>
+                            <a target="_blank" href="https://github.com/bayzedahmedandthe"><img className="md:h-12 md:w-12 h-6 w-6 rounded-full" src={github_logo} alt="" /></a>
+                            <a target="_blank" href="https://wa.link/ckvcjd"><img className="md:h-9 md:w-9 h-6 w-6" src={whatsapp_logo} alt="" /></a>
+                            <a target="_blank" href="https://www.linkedin.com/in/bayzed-ahmed-69914a34b/"><img className="md:h-8 md:w-8 h-6 w-6 rounded-full" src={linkedin_logo} alt="" /></a>
                         </div>
 
                     </div>
