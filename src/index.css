@@ -18,6 +18,67 @@ html, body {
   font-family: "Saira", sans-serif;
 
 }
+
+/* btn style */
+.button-wrapper {
+  display: inline-block;
+  position: relative;
+  padding: 2px;
+  border-radius: 28px;
+  background: linear-gradient(270deg, red, yellow, green, red);
+  background-size: 600% 600%;
+  animation: animate-border 4s linear infinite;
+  
+}
+
+.animated-border-button {
+
+  background-color: #01152e;
+  border-radius: 28px;
+  color: white;
+  border: none;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  z-index: 1;
+  position: relative;
+}
+.animated-border-button:hover{
+    background-color: #062d5e; /* ব্যাকগ্রাউন্ড কালার পরিবর্তন */
+  cursor: pointer;           /* কার্সর চেঞ্জ */
+  transition: 0.3s;  
+}
+
+.icon {
+  width: 24px;
+  height: 24px;
+}
+
+/* Animation that simulates border moving around the 4 sides */
+@keyframes animate-border {
+  0% {
+    background-position: 0% 50%;
+  }
+  25% {
+    background-position: 50% 100%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  75% {
+    background-position: 50% 0%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+
+
+
+
+
 @keyframes zoomEffect {
     0%, 100% { transform: scale(1); } 
     50% { transform: scale(1.2); } 

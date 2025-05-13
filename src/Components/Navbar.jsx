@@ -14,7 +14,7 @@ const Navbar = () => {
     }, [])
     return (
         <div>
-            <div data-aos="zoom-in" data-aos-duration="3000" className="navbar text backdrop-blur-3xl fixed text-white z-20">
+            <div data-aos="zoom-in" data-aos-duration="3000" className="navbar text backdrop-blur-3xl fixed text-white z-20 bg-gradient-to-br from-[#01142c] to-[#022146]">
                 <div className="navbar-start">
                     <div className="dropdown">
                         <div tabIndex={0} role="button" className=" text-[#39FF14] btn btn-ghost lg:hidden">
@@ -43,7 +43,9 @@ const Navbar = () => {
                         <li className="cursor-pointer border-b-2 border-transparent hover:text-[#39FF14] transition-colors duration-500 transform  hover:border-[#39FF14]" onClick={() => scrollToSection("skills")}>Skills</li>
                         <li className="cursor-pointer border-b-2 border-transparent hover:text-[#39FF14] transition-colors duration-500 transform  hover:border-[#39FF14]" onClick={() => scrollToSection("projects")}>Projects</li>
                         <li className="cursor-pointer border-b-2 border-transparent hover:text-[#39FF14] transition-colors duration-500 transform  hover:border-[#39FF14]" onClick={() => scrollToSection("contact")}>Contact Me</li>
-                        <button className='flex items-center gap-1 border border-[#39FF14] rounded-full hover:shadow-green-500/95 shadow-xl btn'><a target="_blank" href="https://drive.google.com/file/d/1SYLje_VUjM_8x96LXmF2AoFoRhlcPFtK/view?usp=sharing"> Resume </a> <img className='h-6 w-6' src={resume_logo} alt="" /></button>
+                        <div className="button-wrapper">
+                            <button className='animated-border-button px-4 py-1'><a target="_blank" href="https://drive.google.com/file/d/1SYLje_VUjM_8x96LXmF2AoFoRhlcPFtK/view?usp=sharing"> Resume </a> <img className='h-6 w-6' src={resume_logo} alt="" /></button>
+                        </div>
                     </ul>
                 </div>
             </div>

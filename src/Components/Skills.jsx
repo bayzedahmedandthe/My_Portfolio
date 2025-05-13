@@ -10,6 +10,7 @@ import tailwind_logo from "../assets/download-removebg-preview.png"
 import { motion } from "motion/react"
 import { useEffect } from "react"
 import Aos from "aos"
+import OtherSkills from "./OtherSkills"
 
 
 
@@ -19,13 +20,13 @@ const Skills = () => {
     }, [])
     return (
         <div id="skills" className="md:w-[83%] w-[90%] mx-auto my-12">
-            <h2 className=" text-center md:text-3xl text-xl font-semibold pt-8 pb-4 text-rose-700">Skills</h2>
-            <h4 className="md:text-xl text-lg font-semibold md:py-4 md:pl-0 pl-4  py-2">Frontend skills</h4>
+            <h2 className=" text-center md:text-3xl text-xl font-semibold pt-8 pb-4 text-white">Skills</h2>
+            <h4 className="md:text-xl text-lg font-semibold md:py-4 md:pl-0 pl-4  pt-2">Frontend skills</h4>
             {/* <Marquee pauseOnHover direction="right"> */}
-            <div className="">
+            <div>
                 <div
                     className=" md:flex md:items-center md:justify-around">
-                    <div data-aos="zoom-out-up" data-aos-duration="3000" className="flex justify-center items-center">
+                    <div data-aos="zoom-out-up" data-aos-duration="1000" className="flex justify-center items-center">
                         <div>
                             <motion.div
                                 animate={{ y: [30, 120, 30] }}
@@ -47,7 +48,7 @@ const Skills = () => {
                             </motion.div>
                         </div>
                     </div>
-                    <div  data-aos="zoom-out-up" data-aos-duration="3000" className="flex items-start justify-start">
+                    <div data-aos="zoom-out-up" data-aos-duration="3000" className="flex items-start justify-start">
                         <div>
                             <motion.div
                                 animate={{ y: [30, 120, 30] }}
@@ -95,7 +96,7 @@ const Skills = () => {
                 </div>
             </div>
             <h4 className="md:text-xl text-lg font-semibold md:mt-12 py-4 md:pl-0 pl-4">Backend skills</h4>
-            <div  data-aos="zoom-out-up" data-aos-duration="3000"  className="md:w-[68%] lg:w-[58%] mx-auto">
+            <div data-aos="zoom-out-up" data-aos-duration="1000" className="md:w-[68%] lg:w-[58%] mx-auto">
                 <div className="flex justify-center md:gap-10 gap-6">
                     <div className="bg-white  md:my-16 my-4 w-[120px] animate-zoom  shadow-blue-500/95 shadow-lg transition-transform duration-400 transform hover:scale-110 peer">
                         <img className="h-16 w-20  flex mx-auto mt-4" src={nodejs_logo} alt="" />
@@ -111,6 +112,8 @@ const Skills = () => {
                     </div>
                 </div>
             </div>
+            <h4 className="md:text-xl text-lg font-semibold md:mt-12 py-4 md:pl-0 pl-4">Others</h4>
+            <OtherSkills></OtherSkills>
         </div>
     );
 };
