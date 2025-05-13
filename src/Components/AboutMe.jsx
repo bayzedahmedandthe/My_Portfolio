@@ -14,7 +14,7 @@ const AboutMe = () => {
     }, [])
     return (
         <div  id="aboutMe" className="lg:w-10/12 max-w-[90%]  mx-auto my-12">
-            <div className="md:flex items-center justify-between gap-20 border-b ">
+            <div className="md:flex items-center justify-between gap-20 border-b-[#39FF14] border-b ">
                 <div data-aos="fade-down" data-aos-duration="1000" className="flex justify-center items-center">
                     <Lottie options={options} height={320} width={320} />
                 </div>
