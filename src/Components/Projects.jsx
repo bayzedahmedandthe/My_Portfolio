@@ -16,7 +16,7 @@ const Projects = () => {
         <div id="projects" className=" lg:w-10/12 w-[90%] mx-auto my-8">
             <h2 className="md:text-2xl font-semibold text-lg py-8">Some of the projects I have done</h2>
             {/* Bistro Boss */}
-            <div className="flex gap-8 pb-8">
+            <div className="md:flex md:gap-8 pb-8">
                 {/* Img Container */}
                 <div data-aos="fade-down" data-aos-duration="1000"
                  className="flex items-center justify-center p-2">
@@ -58,7 +58,7 @@ const Projects = () => {
                 </div>
             </div>
             {/* Service review */}
-            <div className="flex gap-8 py-8 border-t border-green-400">
+            <div className="md:flex md:gap-8 py-8 border-t border-green-400">
                 {/* Text Container */}
                 <div data-aos="fade-up" data-aos-duration="1000"
                  className="flex-1">
@@ -94,7 +94,7 @@ const Projects = () => {
                 </div>
                 {/* Img Container */}
                 <div data-aos="fade-down" data-aos-duration="1000"
-                 className="flex items-center justify-center p-2">
+                 className="flex items-center justify-center p-2 md:pt-0 pt-8">
                     <img className="md:h-[300px] md:w-[460px] rounded-sm transition-transform duration-400 transform hover:scale-110" src={reviews} alt="" />
                 </div>
             </div>
