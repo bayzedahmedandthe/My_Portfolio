@@ -39,7 +39,7 @@ const Banner = () => {
                         <p className="text-white md:font-medium">I like to create attractive websites</p>
 
                         <div className="button-wrapper mt-4 ">
-                            <button className="animated-border-button px-4 py-2  ">
+                            <button className="animated-border-button px-4 py-2  hover:shadow-md hover:shadow-green-500">
                                 <a
                                     target="_blank"
                                     href="https://drive.google.com/file/d/1SYLje_VUjM_8x96LXmF2AoFoRhlcPFtK/view?usp=sharing"
@@ -60,8 +60,8 @@ const Banner = () => {
                     </div>
                     {/* img container */}
                     <div data-aos="fade-down" data-aos-duration="3000">
-                        <div className="flex items-center justify-end md:pt-4 pt-0 pl-4 ">
-                            <img className="lg:w-[60%] lg:h-[50%] mb-12 transition-transform duration-400 transform hover:scale-110 w-[80%] h-[80%] border-[#39FF14] border rounded-full  shadow-[0_0_20px_#39FF14] bg-[#021d3d] " src={bayzed_Ahmed} alt="Bayzed" />
+                        <div className="flex md:items-center md:justify-end justify-center md:pt-4 pt-0 pl-4 ">
+                            <img className="lg:w-[60%] lg:h-[50%] mb-12 transition-transform duration-400 transform hover:scale-110 w-[80%] h-[80%] border-[#39FF14] border rounded-full shadow-[0_0_20px_#39FF14] bg-[#021d3d] " src={bayzed_Ahmed} alt="Bayzed" />
                         </div>
                     </div>
                 </div>

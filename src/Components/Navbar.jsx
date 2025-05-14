@@ -28,7 +28,9 @@ const Navbar = () => {
                             <li className="cursor-pointer border-b-2 border-transparent hover:text-[#39FF14] transition-colors duration-500 transform  hover:border-[#39FF14]" onClick={() => scrollToSection("skills")}>Skills</li>
                             <li className="cursor-pointer border-b-2 border-transparent hover:text-[#39FF14] transition-colors duration-500 transform  hover:border-[#39FF14]" onClick={() => scrollToSection("projects")}>Projects</li>
                             <li className="cursor-pointer border-b-2 border-transparent hover:text-[#39FF14] transition-colors duration-500 transform  hover:border-[#39FF14]" onClick={() => scrollToSection("contact")}>Contact Me</li>
-                            <button className='flex items-center gap-1 border-[#39FF14] rounded-sm hover:shadow-green-500/95 shadow-xl btn'><a href="https://drive.google.com/file/d/1QI0oUih78R1d1m2Y3lUT-nCQonSutkuy/view?usp=sharing"> Resume</a> <img className='h-6 w-6' src={resume_logo} alt="" /></button>
+                            <div className="button-wrapper">
+                                <button className='animated-border-button px-4 py-1 hover:shadow-md hover:shadow-green-500'><a target="_blank" href="https://drive.google.com/file/d/1SYLje_VUjM_8x96LXmF2AoFoRhlcPFtK/view?usp=sharing"> Resume </a> <img className='h-6 w-6' src={resume_logo} alt="" /></button>
+                            </div>
                         </ul>
                     </div>
                     <img className='h-16' src={hello} alt="" />
@@ -44,7 +46,7 @@ const Navbar = () => {
                         <li className="cursor-pointer border-b-2 border-transparent hover:text-[#39FF14] transition-colors duration-500 transform  hover:border-[#39FF14]" onClick={() => scrollToSection("projects")}>Projects</li>
                         <li className="cursor-pointer border-b-2 border-transparent hover:text-[#39FF14] transition-colors duration-500 transform  hover:border-[#39FF14]" onClick={() => scrollToSection("contact")}>Contact Me</li>
                         <div className="button-wrapper">
-                            <button className='animated-border-button px-4 py-1'><a target="_blank" href="https://drive.google.com/file/d/1SYLje_VUjM_8x96LXmF2AoFoRhlcPFtK/view?usp=sharing"> Resume </a> <img className='h-6 w-6' src={resume_logo} alt="" /></button>
+                            <button className='animated-border-button px-4 py-1 hover:shadow-md hover:shadow-green-500'><a target="_blank" href="https://drive.google.com/file/d/1SYLje_VUjM_8x96LXmF2AoFoRhlcPFtK/view?usp=sharing"> Resume </a> <img className='h-6 w-6' src={resume_logo} alt="" /></button>
                         </div>
                     </ul>
                 </div>
