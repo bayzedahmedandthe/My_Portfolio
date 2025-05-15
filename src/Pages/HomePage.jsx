@@ -2,6 +2,7 @@
 import AboutMe from "../Components/AboutMe";
 import Banner from "../Components/Banner";
 import Contact from "../Components/Contact";
+// import Education from "../Components/Education";
 import Navbar from "../Components/Navbar";
 import Projects from "../Components/Projects";
 import Skills from "../Components/Skills";
@@ -19,6 +20,7 @@ const HomePage = () => {
                 <AboutMe></AboutMe>
                 <Skills></Skills>
                 <Projects></Projects>
+                {/* <Education></Education> */}
                 <Contact></Contact>
             </div>
         </div>

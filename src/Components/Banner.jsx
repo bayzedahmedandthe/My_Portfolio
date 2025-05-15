@@ -7,19 +7,21 @@ import resume_logo from "../assets/icons8-download-64.png"
 import { TypeAnimation } from "react-type-animation";
 import { useEffect } from "react"
 import Aos from "aos"
+import { motion } from "motion/react"
+import BubbleContainer from "./BubbleContainer"
 const Banner = () => {
     useEffect(() => {
         window.scrollTo(0, 0);
         Aos.init();
     }, []);
     return (
-        <div className=" bg-gradient-to-tr from-[#01142c] to-[#022146] ">
+        <div className="relative bg-gradient-to-tr from-[#01142c] to-[#022146]">
             <div className=" lg:w-10/12 w-[94%] mx-auto md:py-32 py-16 ">
                 <div className="md:flex md:items-center md:justify-between ">
                     {/* title and description container */}
                     <div data-aos="fade-up" data-aos-duration="3000" className="md:space-y-3 md:pt-0 pt-16 md:text-start text-center">
                         <h4 className="text-lg md:text-2xl font-semibold text-white">Hello, I am </h4>
-                        <h2 className=" md:text-7xl font-semibold text-4xl saira text-transparent bg-clip-text bg-gradient-to-r from-[#39FF14] to-yellow-300">Bayzed Ahmed </h2>
+                        <h2 className=" md:text-7xl font-semibold text-4xl saira text-transparent bg-clip-text bg-gradient-to-r from-[#39FF14] to-yellow-300">  Bayzed Ahmed </h2>
                         <div style={{ overflow: "hidden" }}>
                             <TypeAnimation
                                 sequence={[
@@ -59,11 +61,17 @@ const Banner = () => {
 
                     </div>
                     {/* img container */}
-                    <div data-aos="fade-down" data-aos-duration="3000">
-                        <div className="flex md:items-center md:justify-end justify-center md:pt-4 pt-0 pl-4 ">
+                    <motion.div
+                        animate={{ y: [20, 100, 20] }}
+                        transition={{ duration: 5, repeat: Infinity }}
+                        data-aos="fade-down" data-aos-duration="1000">
+                        <div className="flex md:items-center md:justify-end justify-center pl-4 mb-20">
                             <img className="lg:w-[60%] lg:h-[50%] mb-12 transition-transform duration-400 transform hover:scale-110 w-[80%] h-[80%] border-[#39FF14] border rounded-full shadow-[0_0_20px_#39FF14] bg-[#021d3d] " src={bayzed_Ahmed} alt="Bayzed" />
                         </div>
-                    </div>
+                    </motion.div>
+                </div>
+                <div className="absolute top-36 left-[700px]">
+                    <BubbleContainer></BubbleContainer>
                 </div>
             </div>
         </div>

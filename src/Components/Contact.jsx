@@ -42,8 +42,8 @@ const Contact = () => {
     }, [])
 
     return (
-        <div id="contact" className="lg:py-28 py-4 bg-[url(https://i.ibb.co.com/GQshb0MC/scratched-concrete-flooring-textured-backdrop.jpg)] bg-fixed">
-            <div data-aos="zoom-out-up" data-aos-duration="1000" className="bg-gradient-to-br  from-[#01142c] to-[#022146] opacity-80 lg:w-10/12 w-[94%] mx-auto  text-white">
+        <div id="contact" className="lg:py-20 py-4">
+            <div data-aos="zoom-out-up" data-aos-duration="1000" className="lg:w-10/12 w-[94%] mx-auto  text-white">
                 <h2 className="pt-6 text-center md:text-4xl font-semibold text-2xl text-[#39FF14] ">Get in touch </h2>
                 <div className="md:flex items-start justify-around">
                     <form onSubmit={handleSubmit(onSubmit)} className="p-4 w-full md:mt-6 mt-0 md:ml-20 ml-0">
