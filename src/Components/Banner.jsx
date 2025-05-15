@@ -34,7 +34,7 @@ const Banner = () => {
                                 ]}
                                 wrapper="span"
                                 speed={12}
-                                style={{ fontSize: '34px', display: 'block' }}
+                                style={{ fontSize: '32px', display: 'block' }}
                                 repeat={Infinity}
                             />
                         </div>
@@ -62,7 +62,7 @@ const Banner = () => {
                     </div>
                     {/* img container */}
                     <motion.div
-                        animate={{ y: [20, 100, 20] }}
+                        animate={{ y: [20, 90, 20] }}
                         transition={{ duration: 5, repeat: Infinity }}
                         data-aos="fade-down" data-aos-duration="1000">
                         <div className="flex md:items-center md:justify-end justify-center pl-4 mb-20">

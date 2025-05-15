@@ -42,17 +42,17 @@ const Projects = () => {
                         <img className="md:h-10 md:w-10 h-8 w-8 transition-transform duration-400 transform hover:scale-125" src={mongo_logo} alt="" />
                     </div>
                     {/* btn container */}
-                    <div className="flex items-center gap-6 pt-4">
+                    <div className="flex items-center md:gap-6 gap-3 pt-4">
 
                         <div className="button-wrapper hover:shadow-md hover:shadow-green-500">
-                            <button className='animated-border-button px-4 py-1'><a target="_blank" href="https://bistro-boss-3bc7d.web.app/"> Live Demo </a></button>
+                            <button className='animated-border-button md:text-md text-xs px-4 py-1'><a target="_blank" href="https://bistro-boss-3bc7d.web.app/"> Live Demo </a></button>
                         </div>
                         <div className="button-wrapper hover:shadow-md hover:shadow-green-500">
-                            <button className='animated-border-button px-4 py-1'><a target="_blank" href="https://github.com/bayzedahmedandthe/bistro-boss-client-site"> Client code</a></button>
+                            <button className='animated-border-button md:text-md text-xs px-4 py-1'><a target="_blank" href="https://github.com/bayzedahmedandthe/bistro-boss-client-site"> Client code</a></button>
                         </div>
 
                         <div className="button-wrapper hover:shadow-md hover:shadow-green-500">
-                            <button className='animated-border-button px-4 py-1'><a target="_blank" href="https://github.com/bayzedahmedandthe/bistro-boss-server"> Backend code </a></button>
+                            <button className='animated-border-button md:text-md text-xs px-4 py-1'><a target="_blank" href="https://github.com/bayzedahmedandthe/bistro-boss-server"> Backend code </a></button>
                         </div>
                     </div>
                 </div>
@@ -78,17 +78,16 @@ const Projects = () => {
                         <img className="md:h-10 md:w-10 h-8 w-8 transition-transform duration-400 transform hover:scale-125" src={mongo_logo} alt="" />
                     </div>
                     {/* btn container */}
-                    <div className="flex items-center gap-6 pt-4">
+                    <div className="flex items-center md:gap-6 gap-3 pt-4">
+                        <div className="button-wrapper hover:shadow-md hover:shadow-green-500">
+                            <button className='animated-border-button md:text-md text-xs px-4 py-1'><a target="_blank" href="https://assaignment-11-5c7ac.web.app/"> Live Demo </a></button>
+                        </div>
+                        <div className="button-wrapper hover:shadow-md  hover:shadow-green-500">
+                            <button className='animated-border-button md:text-md text-xs px-4 py-1'><a target="_blank" href="https://github.com/bayzedahmedandthe/Service-Review"> Client code</a></button>
+                        </div>
 
                         <div className="button-wrapper hover:shadow-md hover:shadow-green-500">
-                            <button className='animated-border-button px-4 py-1'><a target="_blank" href="https://assaignment-11-5c7ac.web.app/"> Live Demo </a></button>
-                        </div>
-                        <div className="button-wrapper hover:shadow-md hover:shadow-green-500">
-                            <button className='animated-border-button px-4 py-1'><a target="_blank" href="https://github.com/bayzedahmedandthe/Service-Review"> Client code</a></button>
-                        </div>
-
-                        <div className="button-wrapper hover:shadow-md hover:shadow-green-500">
-                            <button className='animated-border-button px-4 py-1'><a target="_blank" href="https://github.com/bayzedahmedandthe/Service-Review-Server"> Backend code </a></button>
+                            <button className='animated-border-button md:text-md text-xs px-4 py-1'><a target="_blank" href="https://github.com/bayzedahmedandthe/Service-Review-Server"> Backend code </a></button>
                         </div>
                     </div>
                 </div>

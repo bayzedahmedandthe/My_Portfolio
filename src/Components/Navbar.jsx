@@ -14,7 +14,7 @@ const Navbar = () => {
     }, [])
     return (
         <div>
-            <div data-aos="zoom-in" data-aos-duration="3000" className="navbar text backdrop-blur-3xl fixed text-white z-20 bg-gradient-to-br from-[#01142c] to-[#022146]">
+            <div data-aos="zoom-in" data-aos-duration="2000" className="navbar text backdrop-blur-3xl fixed text-white z-20 bg-gradient-to-br from-[#01142c] to-[#022146]">
                 <div className="navbar-start">
                     <div className="dropdown">
                         <div tabIndex={0} role="button" className=" text-[#39FF14] btn btn-ghost lg:hidden">
