@@ -41,7 +41,7 @@ const OtherSkills = () => {
 
         {/* Center Title & Description */}
         <div className="absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 z-10 text-center px-2">
-          <h2 className="text-xl font-bold text-gray-100">Other Skills</h2>
+          <h2 className="text-xl font-bold text-gray-100">Others</h2>
           <p className="text-xs text-gray-200">
             Tools I use for design, version control, and more.
           </p>

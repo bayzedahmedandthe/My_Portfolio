@@ -1,4 +1,5 @@
 import resturant from "../assets/bistro_boss.webp"
+import Dev_Discuss from "../assets/Dev_Discuss.png"
 import reviews from "../assets/reviews.png"
 import react_logo from "../assets/react.png"
 import firebase_logo from "../assets/1_R4c8lHBHuH5qyqOtZb3h-w-removebg-preview.png"
@@ -15,16 +16,53 @@ const Projects = () => {
     return (
         <div id="projects" className=" lg:w-10/12 w-[90%] mx-auto my-8">
             <h2 className="md:text-2xl font-semibold text-lg py-8">Some of the projects I have done</h2>
-            {/* Bistro Boss */}
-            <div className="md:flex md:gap-8 pb-8">
+            {/* Dev_Discuss */}
+            <div className="md:flex md:gap-8 py-8">
                 {/* Img Container */}
                 <div data-aos="fade-down" data-aos-duration="1000"
-                 className="flex items-center justify-center p-2">
-                    <img className="md:h-[285px] md:w-[460px] rounded-sm transition-transform duration-400 transform hover:scale-110" src={resturant} alt="" />
+                    className="flex items-center justify-center p-2">
+                    <img className="md:h-[272px] md:w-[460px] rounded-sm transition-transform duration-400 transform hover:scale-110" src={Dev_Discuss} alt="" />
                 </div>
                 {/* Text Container */}
                 <div data-aos="fade-up" data-aos-duration="1000"
-                className="flex-1">
+                    className="flex-1">
+                    <h3 className="text-xl text-gray-100 ">Dev_Discuss</h3>
+                    <p className="text-gray-300 py-3">Dev_Discuss is an interactive and collaborative platform that facilitates knowledge sharing and idea exchange among developers
+                    </p>
+                    <p className="text-gray-300 ">
+                        Responsive UI , Like & comment system, Add post, Tag based Search functionality, Earning points,
+                        TwinAI, Error solving etc
+                    </p>
+                    <h5 className="py-2">Used Technologies</h5>
+                    {/* Logo container */}
+                    <div className="flex items-center gap-6 pb-2 pt-1">
+                        <img className="md:h-8 md:w-8 h-6 w-6 transition-transform duration-400 transform hover:scale-125" src={react_logo} alt="" />
+                        <img className="md:h-10 md:w-10 h-8 w-8 transition-transform duration-400 transform hover:scale-125" src={tailwind_logo} alt="" />
+                        <img className="md:h-8 md:w-8 h-6 w-6 transition-transform duration-400 transform hover:scale-125" src={firebase_logo} alt="" />
+                        <img className="md:h-8 md:w-8 h-6 w-6 bg-white transition-transform duration-400 transform hover:scale-125" src={nodejs_logo} alt="" />
+                        <img className="md:h-10 md:w-10 h-8 w-8 transition-transform duration-400 transform hover:scale-125" src={mongo_logo} alt="" />
+                    </div>
+                    {/* btn container */}
+                    <div className="flex items-center md:gap-6 gap-3 pt-4">
+
+                        <div className="button-wrapper hover:shadow-md hover:shadow-green-500">
+                            <button className='animated-border-button md:text-md text-xs px-4 py-1'><a target="_blank" href="http://null-car.surge.sh/"> Live Demo </a></button>
+                        </div>
+                        <div className="button-wrapper hover:shadow-md hover:shadow-green-500">
+                            <button className='animated-border-button md:text-md text-xs px-4 py-1'><a target="_blank" href="https://github.com/bayzedahmedandthe/Dev_Discuss_Client"> Client code</a></button>
+                        </div>
+
+                        <div className="button-wrapper hover:shadow-md hover:shadow-green-500">
+                            <button className='animated-border-button md:text-md text-xs px-4 py-1'><a target="_blank" href="https://github.com/bayzedahmedandthe/Dev_Discuss_Server"> Backend code </a></button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            {/* Bistro boss */}
+            <div className="md:flex md:gap-8 py-8 border-t border-green-400">
+                {/* Text Container */}
+                <div data-aos="fade-up" data-aos-duration="1000"
+                    className="flex-1">
                     <h3 className="text-xl text-gray-100 ">Bistro Boss Restaurant</h3>
                     <p className="text-gray-300 py-3">This web application allows users to order food easily and securely, while providing admins with an efficient order management dashboard.
                     </p>
@@ -56,14 +94,25 @@ const Projects = () => {
                         </div>
                     </div>
                 </div>
+                {/* Img Container */}
+                <div data-aos="fade-down" data-aos-duration="1000"
+                    className="flex items-center justify-center p-2">
+                    <img className="md:h-[285px] md:w-[460px] rounded-sm transition-transform duration-400 transform hover:scale-110" src={resturant} alt="" />
+                </div>
+
             </div>
             {/* Service review */}
             <div className="md:flex md:gap-8 py-8 border-t border-green-400">
+                {/* Img Container */}
+                <div data-aos="fade-down" data-aos-duration="1000"
+                    className="flex items-center justify-center p-2 md:pt-0 pt-8">
+                    <img className="md:h-[280px] md:w-[460px] rounded-sm transition-transform duration-400 transform hover:scale-110" src={reviews} alt="" />
+                </div>
                 {/* Text Container */}
                 <div data-aos="fade-up" data-aos-duration="1000"
-                 className="flex-1">
-                    <h3 className="text-xl text-gray-100 pt-2">Service Review</h3>
-                    <p className="text-gray-300 py-3">Service Review is a modern and user-friendly website where users can share opinions and reviews about various services. It facilitates transparent and informed decision-making
+                    className="flex-1">
+                    <h3 className="text-xl text-gray-100 ">Service Review</h3>
+                    <p className="text-gray-300 py-3">Service Review is a modern and user-friendly website where users can share opinions and reviews about various services.
                     </p>
                     <p className="text-gray-300 ">
                         Responsive UI, Add service, Delete service, Add reviews, Service card, Search service, Privet routes
@@ -90,11 +139,6 @@ const Projects = () => {
                             <button className='animated-border-button md:text-md text-xs px-4 py-1'><a target="_blank" href="https://github.com/bayzedahmedandthe/Service-Review-Server"> Backend code </a></button>
                         </div>
                     </div>
-                </div>
-                {/* Img Container */}
-                <div data-aos="fade-down" data-aos-duration="1000"
-                 className="flex items-center justify-center p-2 md:pt-0 pt-8">
-                    <img className="md:h-[300px] md:w-[460px] rounded-sm transition-transform duration-400 transform hover:scale-110" src={reviews} alt="" />
                 </div>
             </div>
         </div>
