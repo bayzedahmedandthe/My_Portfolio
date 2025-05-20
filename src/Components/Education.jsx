@@ -20,26 +20,26 @@ const Education = () => {
     <section className="py-20 px-6 md:px-20">
       <h2 className="text-4xl font-extrabold text-center mb-16 text-[#39FF14]">🎓 Education</h2>
 
-        <div className="max-w-6xl mx-auto flex gap-8">
-          {educationData.map((edu, idx) => (
-            <motion.div
-              key={idx}
-              initial={{ opacity: 0, x: -50 }}
-              whileInView={{ opacity: 1, x: 0 }}
-              viewport={{ once: true }}
-              transition={{ duration: 0.6, delay: idx * 0.3 }}
-              className="flex-1 p-6 relative border-[#39FF14] border  shadow-[20px_#39FF14] bg-[#021d3d] rounded-md"
-            >
-              <h3 className="flex items-center gap-4 text-xl font-semibold pb-2">
-                <span><FaGraduationCap /></span>
-                <p>{edu.title}</p>
-              </h3>
-              <h4 className="pl-9">{edu.institution}</h4>
-              <p className="pl-9">{edu.period}</p>
+      <div className="max-w-6xl mx-auto flex gap-8">
+        {educationData.map((edu, idx) => (
+          <motion.div
+            key={idx}
+            initial={{ opacity: 0, x: -50 }}
+            whileInView={{ opacity: 1, x: 0 }}
+            viewport={{ once: true }}
+            transition={{ duration: 0.6, delay: idx * 0.3 }}
+            className="flex-1 p-6 relative border-[#39FF14] border rounded-md transition-transform duration-400 transform hover:scale-110 hover:bg-[#062d5e]"
+          >
+            <h3 className="flex items-center gap-4 text-xl font-semibold pb-2">
+              <span><FaGraduationCap /></span>
+              <p>{edu.title}</p>
+            </h3>
+            <h4 className="pl-9">{edu.institution}</h4>
+            <p className="pl-9">{edu.period}</p>
 
-            </motion.div>
-          ))}
-        </div>
+          </motion.div>
+        ))}
+      </div>
     </section>
   );
 };
