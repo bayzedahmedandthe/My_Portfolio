@@ -20,7 +20,7 @@ const Skills = () => {
     }, [])
     return (
         <div id="skills" className="md:w-[83%] w-[90%] mx-auto my-12">
-            <h2 className=" text-center md:text-3xl text-xl font-semibold pt-8 pb-4 text-white">Skills</h2>
+            <h2 className=" text-center md:text-3xl text-xl font-semibold pt-8 pb-4  text-[#39FF14]">Skills</h2>
             <h4 className="md:text-xl text-lg md:text-center text-start font-semibold md:py-4 md:pl-0 pl-4 pt-2">Frontend skills</h4>
             {/* <Marquee pauseOnHover direction="right"> */}
             <div>

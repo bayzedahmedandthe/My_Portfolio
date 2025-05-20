@@ -19,7 +19,7 @@ const AboutMe = () => {
                     <Lottie options={options} height={320} width={320} />
                 </div>
                 <div data-aos="fade-up" data-aos-duration="1000" className="md:w-[70%]">
-                    <h2 className="md:text-3xl text-xl font-semibold pt-8 pb-4  text-white">About me</h2>
+                    <h2 className="md:text-3xl text-xl font-semibold pt-8 pb-4 text-[#39FF14]">About me</h2>
                     <p className="text-white">
                         Hello! I am a MERN Stack Developer (MongoDB, Express.js, React.js, Node.js) focused on building high-performance and user-friendly web applications. I believe that the proper use of modern technologies can help any company move forward digitally.
                         As a developer, I don't just build features—I deliver solutions that enhance productivity, improve user experience, and support business growth. I am skilled in responsive design, writing clean code, and collaborating effectively within a team.

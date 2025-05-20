@@ -45,8 +45,8 @@ html, body {
   position: relative;
 }
 .animated-border-button:hover{
-    background-color: #062d5e; /* ব্যাকগ্রাউন্ড কালার পরিবর্তন */
-  cursor: pointer;           /* কার্সর চেঞ্জ */
+    background-color: #062d5e; 
+  cursor: pointer; 
   transition: 0.3s;  
 }
 

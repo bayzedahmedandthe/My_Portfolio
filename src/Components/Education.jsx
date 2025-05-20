@@ -1,59 +1,45 @@
-import { GraduationCap } from "lucide-react";
+
 import { motion } from "framer-motion";
+import { FaGraduationCap } from "react-icons/fa";
 
 const Education = () => {
   const educationData = [
     {
-      title: "B.Sc. in Computer Science & Engineering",
-      institution: "University of Example",
-      period: "2019 – 2023",
-      details: [
-        "CGPA: 3.8 / 4.0",
-        "Major in Software Engineering",
-        "Thesis: AI-Powered Career Recommendation System",
-      ],
+      title: "Bachelor of Social Science",
+      institution: "National University, Gazipur",
+      period: "Still running (2nd Year)",
     },
     {
       title: "Higher Secondary Certificate (HSC)",
-      institution: "XYZ College, Dhaka",
-      period: "2017 – 2019",
-      details: [
-        "GPA: 5.00 / 5.00",
-        "Group: Science",
-        "Board: Dhaka Board",
-      ],
+      institution: "Purbadhala Govt.College, Netrokona",
+      period: "2020 – 2022",
     },
   ];
 
   return (
     <section className="py-20 px-6 md:px-20">
-      <h2 className="text-4xl font-extrabold text-center mb-16">🎓 Education</h2>
+      <h2 className="text-4xl font-extrabold text-center mb-16 text-[#39FF14]">🎓 Education</h2>
 
-      <div className="max-w-6xl mx-auto flex gap-8">
-        {educationData.map((edu, idx) => (
-          <motion.div
-            key={idx}
-            initial={{ opacity: 0, x: -50 }}
-            whileInView={{ opacity: 1, x: 0 }}
-            viewport={{ once: true }}
-            transition={{ duration: 0.6, delay: idx * 0.3 }}
-            className="flex-1 border border-gray-300 rounded-lg p-6 relative"
-          >
-            <div className="absolute left-6 top-6 w-10 h-10 rounded-full bg-indigo-600 flex items-center justify-center text-white shadow-lg">
-              <GraduationCap className="w-6 h-6" />
-            </div>
+        <div className="max-w-6xl mx-auto flex gap-8">
+          {educationData.map((edu, idx) => (
+            <motion.div
+              key={idx}
+              initial={{ opacity: 0, x: -50 }}
+              whileInView={{ opacity: 1, x: 0 }}
+              viewport={{ once: true }}
+              transition={{ duration: 0.6, delay: idx * 0.3 }}
+              className="flex-1 p-6 relative border-[#39FF14] border  shadow-[20px_#39FF14] bg-[#021d3d] rounded-md"
+            >
+              <h3 className="flex items-center gap-4 text-xl font-semibold pb-2">
+                <span><FaGraduationCap /></span>
+                <p>{edu.title}</p>
+              </h3>
+              <h4 className="pl-9">{edu.institution}</h4>
+              <p className="pl-9">{edu.period}</p>
 
-            <h3 className="text-2xl font-semibold mt-12">{edu.title}</h3>
-            <p className="mt-1 text-indigo-600 font-medium">{edu.institution}</p>
-            <p className="text-sm">{edu.period}</p>
-            <ul className="mt-3 list-disc list-inside space-y-1 text-sm">
-              {edu.details.map((point, i) => (
-                <li key={i}>{point}</li>
-              ))}
-            </ul>
-          </motion.div>
-        ))}
-      </div>
+            </motion.div>
+          ))}
+        </div>
     </section>
   );
 };
