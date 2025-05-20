@@ -20,7 +20,7 @@ const Education = () => {
     <section className="py-20 px-6 md:px-20">
       <h2 className="text-4xl font-extrabold text-center mb-16 text-[#39FF14]">🎓 Education</h2>
 
-      <div className="max-w-6xl mx-auto flex gap-8">
+      <div className="max-w-6xl mx-auto md:flex gap-8 md:space-y-0 space-y-6">
         {educationData.map((edu, idx) => (
           <motion.div
             key={idx}
@@ -28,7 +28,7 @@ const Education = () => {
             whileInView={{ opacity: 1, x: 0 }}
             viewport={{ once: true }}
             transition={{ duration: 0.6, delay: idx * 0.3 }}
-            className="flex-1 p-6 relative border-[#39FF14] border rounded-md transition-transform duration-400 transform hover:scale-110 hover:bg-[#062d5e]"
+            className="md:flex-1 p-6 relative border-[#39FF14] border rounded-md transition-transform duration-400 transform hover:scale-110 hover:bg-[#062d5e]"
           >
             <h3 className="flex items-center gap-4 text-xl font-semibold pb-2">
               <span><FaGraduationCap /></span>
